@@ -16,3 +16,6 @@ ERROR WITH STEAM_APPID.txt
 
 • View of functionality
 
+Link to download!!!
+https://github.com/IOleg-crypto/STEAM_APPID_creator/releases/download/untagged-64b2866983f1b09b272d/
+
