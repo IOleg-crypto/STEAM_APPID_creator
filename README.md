@@ -4,6 +4,7 @@ STEAM_APPID_creator is program , which is create steam_appid(a file , which need
 • steam_appid.txt - file for Steam , which needs for to load game from Steam
 • Program created to not always create steam_appid.txt every time. Especialy STEAM love deleted this file for non-STEAM games.
 • This program be used w/ RevLoader!!!!
+
 ![Знімок екрана 2023-10-21 151023](https://github.com/IOleg-crypto/STEAM_APPID_creator/assets/124497826/a8cd8a64-862c-41af-84c8-b600c67a359d) 
 
 ERROR WITH STEAM_APPID.txt
@@ -16,7 +17,4 @@ ERROR WITH STEAM_APPID.txt
 
 • View of functionality
 
-Link to download!!!
-
-https://github.com/IOleg-crypto/STEAM_APPID_creator/releases/download/untagged-64b2866983f1b09b272d/1.0_steam_appid.exe
 
