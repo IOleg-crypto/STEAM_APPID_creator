@@ -3,13 +3,11 @@
 #include <string.h>
 #include <fstream>
 #include "info_header.h"
- 
+#include "function_steam_appid.h"
 int main()
 {
-    
-    std::fstream fill;
-    int GetAPPID = 0;
-    std::string GETINFO = "";
+    GETID GetAPPID = 0;
+    GETPATH GETINFO = "";
     INFO_ABOUT_PATH;
     START;
     PASS;
@@ -20,15 +18,6 @@ int main()
     std::cin >> GETINFO;
     INFO_ABOUT_PATH_3;
     std::cin >> GetAPPID;
-    // doinfo.setInfo(paths, appid);
-    // doinfo.CreateFile()
-
-    fill.open(GETINFO, std::ios::out);
-    if (fill.is_open())
-    {
-        fill << GetAPPID;
-        DEBUG_MESSAGE_APPEAR;
-        fill.close();
-    }
+    MakeFile_Steam(GetAPPID , GETINFO);
     std::system("pause"); // lock fast close of program
 }

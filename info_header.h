@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+#include <fstream>
 #ifndef _INFO_HEADER_H
 #define _INFO_HEADER_H
 #define START std::cout << "-------------------------------------------------------------------------------------------------------------------";
@@ -9,3 +11,6 @@
 #define INFO_ABOUT_PATH_3 std::cout << "Write the appid for game(if you know) : ";
 #define EXAMPLE_INFO std::cout << "For example :  D:\\SteamLibrary\\steamapps\\common\\Half-Life\\bavl\\Half-Life\\steam_appid.txt(name of file needs at the end , cause it never work)";
 #endif
+typedef std::string GETPATH;
+//typedef std::fstream MAKEFILE;
+typedef int GETID;
