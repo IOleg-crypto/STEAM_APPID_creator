@@ -2,6 +2,7 @@
 #include <string>
 #include <string.h>
 #include <fstream>
+#include <stdexcept>
 #include "info_header.h"
 #include "function_steam_appid.h"
 int main()
